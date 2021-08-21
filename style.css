@@ -1,0 +1,477 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+p,h1,h2 {
+    text-align: center;
+    margin: 0em;
+}
+.txtl {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.txtm {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+
+header {
+    height: 70px;
+}
+.header-in {
+background-color: #fff;
+width: 100%;
+padding: 15px 50px;
+position: fixed;
+top: 0;
+z-index: 100;
+}
+header img {
+    vertical-align: bottom;
+}
+.header-in p {
+    display: inline-block;
+}
+.btn {
+    width: 318px;
+    height: 44px;
+    border: 1px solid #d86c67;
+    background-color: #d86c67;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    margin-right: 80px;
+}
+.btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    display: block;
+    height: 100%;
+    padding-top: 10px;
+}
+.btn:hover {
+background-color: red;
+}
+
+
+
+.isaratop {
+    background-image: url("https://isara.life/wp-content/themes/isara_v2/img/main.jpg");
+    height: 500px;
+    background-size: cover;
+    text-align: center;
+}
+.isaratop h1 {
+    text-align: center;
+    padding-top: 80px;
+    letter-spacing: 15px;
+    font-size:30px;
+line-height: 50px;
+}
+.isaratop p {
+    font-weight: bold;
+}
+
+
+
+.ask {
+    background-color: #EBB94C;
+    height: 600px;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.ask .txtm {
+    padding-top: 40px;
+}
+.ask-point {
+    background-color: #fff;
+    color: #d86c67;
+    border-radius: 3px;
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.btns {
+    width: 80%;
+    height: 104px;
+    border: 1px solid #d86c67;
+    background-color: #d86c67;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.btns a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    display: block;
+    height: 100%;
+    line-height: 104px;
+    
+}
+.btns:hover {
+background-color: red;
+}
+.ask h2 {
+    margin-top: 30px;
+    font-size: 21px;
+    padding: 5px;
+}
+.sns {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+/*   エンジニアとしての需要　*/
+.freedom {
+height: 560px;
+background-image: url(https://isara.life/wp-content/themes/isara_v2/img/introbottom.jpg);
+background-size: cover;
+position: relative;
+z-index: 1px;
+}
+.txtbox{
+    width: 860px;
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+    position: relative;
+    z-index: 0px;
+}
+.txtbox::before, .txtbox::after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    display: inline-block;
+    box-sizing: border-box;
+
+}
+.txtbox::before {
+border-top: 4px solid #EA8857;
+border-left: 4px solid #EA8857;
+top: 0;
+left: 0;
+}
+.txtbox::after {
+    border-bottom: 4px solid #EA8857;
+    border-right: 4px solid #EA8857;
+    bottom: 0;
+    right: 0;
+}
+ .txtll{
+padding: 30px 0px 30px 0px;
+font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.under-line {
+    background: linear-gradient(transparent 70%, #EAB857 50%);
+    font-weight: 600;
+}
+.about-btn {
+    color: #fff;
+    background-color: #EA8857;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+bottom: -40px;
+left: 0;
+right: 0em;
+margin: 0 auto;
+}
+.about-btn p {
+    line-height: 80px;
+}
+/*
+
+
+/*ノマドエンジニア育成講座*/
+.about {
+    background-color: #FEF5E0;
+    padding-top: 40px;
+    height: 550px;
+}
+.texa-box{
+    width: 860px;
+    max-width: calc(100% - 40px);
+    margin: 0 auto;
+  /* position: relative;*/
+    text-align: center;
+}
+.texa-box::before, .texa-box::after{
+    content: '';
+    width: 50px;
+    height: 50px;
+    /*position: absolute;*/
+    display: inline-block;
+    box-sizing: border-box;
+    z-index: 10px;
+
+}
+.texa-box::before {
+border-top: 4px solid #EA8857;
+border-left: 4px solid #EA8857;
+top: 0;
+left: 0;
+}
+.texa-box::after {
+    border-bottom: 4px solid #EA8857;
+    border-right: 4px solid #EA8857;
+    bottom: 0;
+    right: 0;
+}
+
+
+.about-box {
+    width: 860px;
+    height: 250px;
+    background-color: #fff;
+    border: 3px solid #EAB857;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0px 80px;
+}
+.box-images {
+    float: left;
+    width: 20%;
+}
+
+/*　　　　　　ベーシック　　　　*/
+.basic {
+    height: 450px;
+    background-image: url("https://isara.life/wp-content/themes/isara_v2/img/aboutsecondbg.jpg");
+    background-size: cover;
+    color: white;
+    padding-top: 40px;
+}
+.yellow {
+    color: #EBB94C;
+}
+/*///////F L E X ///// */
+.basic-flex {
+    display: flex;
+    justify-content: center;
+
+}
+.basic-step {
+width: 30%;
+background-color: #fff;
+height: 170px;
+margin-right: 15px;
+color: black;
+margin-top: 15px;
+border-radius: 5px;
+padding: 30px 30px 20px;
+box-sizing: border-box;
+}
+.basic-yellow {
+background-color: #EAB857;
+border-radius: 3px;
+color: #fff;
+letter-spacing: 3px;
+}
+.basic-text {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.blue {
+    background-color: blue;
+    height: 110px;
+    text-align: center;1
+}
+.blue-text {
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+/*  ISARA-LEARN  */
+.isara-learn {
+    height: 450px;
+    background-color: #fff;
+
+}
+.txtl2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    padding-top: 50px;
+}
+.learn-txt {
+    font-size: 20px;
+    margin-bottom: 40px;
+    padding-top: 30px;
+}
+.learn-middle {
+    width: 800px;
+    margin: 0 auto;
+}
+.learn-img {
+    float: left;
+    margin-top: 20px;
+}
+.learn-img img {
+    width: 160px;
+    margin-right: 30px;
+}
+.learn-txtm {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    clear: both;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+
+.padding {
+    height: 40px;
+    background-color: #FEF5E0;
+}
+/* isara 3つのメリット　　*/
+.isara-long {
+    height: 950px;
+    background-color: #FEF5E0;
+}
+.isara-long-middle {
+    width: 85%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.isara-long-img {
+    width: 31%;
+    float: left;
+    margin: 0 10px;
+}
+.isara-long-img h2 {
+    color: #EA8857;
+    font-size: 23px;
+}
+.isara-long-img p {
+    width: 270px;
+    margin: 0 auto;
+}
+.long-box {
+    margin-top: 1000px;
+    clear: both;
+    border: 2px solid #EA8857;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    height: 200px;
+    padding-top: 20px;
+}
+.long-box h2 {
+    color: #EAB857;
+}
+.txts {
+    padding-top: 50px;
+}
+
+
+/* mountain   */
+.mountain {
+    background-image: url("https://isara.life/wp-content/themes/isara_v2/img/teacherbg.jpg");
+    height: 1200px;
+    background-size: cover;
+}
+.mountain h2 {
+    color: #fff;
+    padding-top: 50px;
+    font-size: 30px;
+}
+.mountain-text {
+    margin-top: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+.mountain-wrapper {
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}
+.mountain-in {
+    width: 350px;
+    border:2px solid #fff;
+    float: left;
+    margin-right: 40px;
+    margin-top: 30px;
+    height: 450px;
+}
+.mountain img {
+    border-radius: 50%;
+}
+
+
+
+
+
+/*　　　　　フッター　　　　　*/
+footer {
+    margin: 0 auto;
+    text-align: center;
+    background-color: #EAB857;
+    color: #333;
+    height: 650px;
+}
+footer h2 {
+    padding-top: 30px;
+    font-size: 30px;
+}
+footer p {
+    font-weight: bold;
+    padding-top: 20px;
+}
+.name {
+    padding: 10px 200px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.kanso {
+    padding: 30px 220px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.btn1 {
+    width: 60%;
+    height: 60px;
+    border: 1px solid #d86c67;
+    background-color: #d86c67;
+    border-radius: 50px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.btn1 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    display: block;
+    height: 100%;
+    line-height: 104px;
+    
+}
+.btn1:hover {
+background-color: red;
+}
